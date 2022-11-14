@@ -1,0 +1,1 @@
+docker exec -it fc8a03132bb6 /bin/bash -c "psql -h localhost -p 5432 -U postgres -W"
