@@ -1,5 +1,5 @@
 CREATE TYPE user_role AS ENUM('ADMIN', 'READ', 'ADD','EDIT');
-CREATE TYPE material_type AS ENUM('RAW', 'INTER', 'FIANL');
+CREATE TYPE material_type AS ENUM('RAW', 'INTER', 'FINAL');
 
 CREATE TABLE IF NOT EXISTS users (
   user_hash TEXT NOT NULL,
